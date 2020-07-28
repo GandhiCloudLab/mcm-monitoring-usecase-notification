@@ -82,13 +82,12 @@ It opens up the incident detail.
 
 ## Incident Detail
 
-<img src="images/11-notification-2.png">
+<img src="images/11-notification-1.png">
 
 Two events are listed here.
 <img src="images/11-notification-3.png">
 
-Event details of wealthcare Message Queue is not being read
-<img src="images/11-notification-4.png">
+Event details of wealthcare Message Queue is not being read.
 
 Lets goto the resource dashboard screen for MQ to understand the event in detail.
 
@@ -107,7 +106,7 @@ Lets go back to incidents details to anaylse about another event associated with
 
 ## Notification service saturation
 
-<img src="images/01-responsetime-4.png">
+<img src="images/11-notification-4.png">
 
 The event is about Notification Saturation is high.
 
@@ -140,10 +139,10 @@ Assign the incident to me.
 <img src="images/13-notification-2.png">
 
 The first step in the runbook is not relevant to this issue
-<img src="images/04-responsetime-3.png">
+<img src="images/13-notification-3.png">
 
 Let me go to the second step.
-<img src="images/04-responsetime-4.png">
+<img src="images/13-notification-4.png">
 As per step2, the notification service requires, 750 MB memory. 
 But for this service, less memory was requested, in the kubernetees resource. 
 

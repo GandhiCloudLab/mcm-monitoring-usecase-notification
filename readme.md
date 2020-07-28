@@ -1,4 +1,4 @@
-# MCM Monitoring usecase - Notification alerts are not sent
+# MCM Monitoring usecase - Notification messages are not received
 
 This document explains about how  SRE  is going to analyze, and resolve an Incident, using MCM monitoring. 
 
@@ -68,7 +68,7 @@ As a SRE, I  login into MCM Monitoring console, and look at my group, for incide
 
 There is an incident about Wealthcare Notification Alerts
 
-<img src="images/01-responsetime-1.png">
+<img src="images/11-notification-1.png">
 
 Two  events  are  associated with this incident.
 
@@ -82,7 +82,7 @@ It opens up the incident detail.
 
 ## Incident Detail
 
-<img src="images/11-notification-1.png">
+<img src="images/11-notification-2.png">
 
 Two events are listed here.
 <img src="images/11-notification-3.png">

@@ -1,6 +1,6 @@
 # MCM Monitoring use case - Notification messages are not received
 
-This document explains about how  SRE  is going to analyze, and resolve an Incident, using MCM monitoring. 
+This document explains about how SRE is going to analyze and resolve an Incident using MCM monitoring.
 
 <img src="images/20-notification-1.png">
 
@@ -26,9 +26,9 @@ This use case is going to leverages the following objects for Application Monito
 - Event Policies
 - Incident Policies
 
-How to create and configure them is discussed in another git repo. 
+How to create and configure them are discussed in another git repo. 
 
-https://github.com/GandhiCloudLab/mcm-monitoring-use case-notification-configuration
+https://github.com/GandhiCloudLab/mcm-monitoring-usecase-notification-configuration
 
 ------
 

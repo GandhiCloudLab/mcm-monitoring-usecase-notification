@@ -1,11 +1,11 @@
-# MCM Monitoring usecase - Notification messages are not received
+# MCM Monitoring use case - Notification messages are not received
 
 This document explains about how  SRE  is going to analyze, and resolve an Incident, using MCM monitoring. 
 
 <img src="images/20-notification-1.png">
 
 
-## Usecase
+## Use case
 
 The Wealthcare application users are `not receiving, Notification messages` for the operation that they are doing at Wealthcare.
 
@@ -16,22 +16,22 @@ Now SRE is going to analyze and resolve the incident using the events generated 
 2.	Golden Signals sent by the Application Runtime
 
 
-Here is the usecase.
+Here is the use case.
 
 <img src="images/20-notification-2.png">
 
 
 ## Note
 
-This usecase is going to leverages the following objects for Application Monitoring and Incident management.
+This use case is going to leverages the following objects for Application Monitoring and Incident management.
 - Thresholds
 - Runbooks
 - Event Policies
 - Incident Policies
 
-How to create and configure them is discused in another git repo. 
+How to create and configure them is discussed in another git repo. 
 
-https://github.com/GandhiCloudLab/mcm-monitoring-usecase-notification-configuration
+https://github.com/GandhiCloudLab/mcm-monitoring-use case-notification-configuration
 
 
 ## Abstract of the Incident and resolution steps
@@ -144,9 +144,9 @@ The first step in the runbook is not relevant to this issue
 Let me go to the second step.
 <img src="images/13-notification-4.png">
 As per step2, the notification service requires, 750 MB memory. 
-But for this service, less memory was requested, in the kubernetees resource. 
+But for this service, less memory was requested, in the kubernetes resource. 
 
-I will go and increase the memory request , in the kubernetees resource.
+I will go and increase the memory request , in the kubernetes resource.
 
 After the memory correction the Notification service was able to resume the service without any issues. 
 
